@@ -1,4 +1,4 @@
-FROM kgulyy/base:1.0.0
+FROM openjdk:11-jre-slim
 EXPOSE 8080
 WORKDIR /dbo
 COPY dbo-1.0-SNAPSHOT.jar .
